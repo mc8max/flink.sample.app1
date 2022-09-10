@@ -7,6 +7,6 @@ val scalaTest = "org.scalatest" %% "scalatest" % "3.2.12"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "sample.app1",
+    name := "flink.sample.app1",
     libraryDependencies += scalaTest % Test,
   )
